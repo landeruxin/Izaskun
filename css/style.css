@@ -230,9 +230,7 @@ color: #FF89BA;
 	background-color: #222222;
 	color: #ffffff;
 }
-.default-bg.blue {
-	background-color: #55acee;
-}
+
 .btn-primary {
 color: #fff;
 background-color: #BD0451;
@@ -430,6 +428,7 @@ text-align:center;
 	background-color: #BB0A53;
 	border: 0;
 }
+
 
 /* Collapse
 ---------------------------------- */
@@ -1039,6 +1038,8 @@ th, td{
 	text-align: left;
 	margin-left: 20px;
 	cursor: pointer;
+	color: inherit; 
+	text-decoration: none;
 }
 
 #direccion{
@@ -1047,7 +1048,8 @@ th, td{
 }
 
 #telefono:hover , #direccion:hover{
-	color: rgba(219, 10, 97, 0.78);
+	/* color: rgba(219, 10, 97, 0.78); */
+	color: blue;
 }
 /* 
 #serv{

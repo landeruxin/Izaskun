@@ -29,6 +29,15 @@
 			};
 		});
 
+		$("#direccion").click((e)=>{
+			window.open("https://www.google.com/search?safe=active&rlz=1C1GCEA_enES936ES936&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALeKk02BMSQk7GoLbyznQ4U-8aquTcJi0Q:1615829313542&q=izaskun+ileapaindegia+getaria&rflfq=1&num=10&ved=2ahUKEwjL6oCi6bLvAhUGZcAKHbz2AFcQtgN6BAgEEAc", "_blank");
+	
+		   });
+	
+		$("#telefono").click((e)=>{
+			window.location.href = "tel:943089844";
+		});
+
 		$(window).load(function() {
 			if (($(".header.fixed").length > 0)) { 
 				if(($(this).scrollTop() > 0) && ($(window).width() > 767)) {

@@ -110,12 +110,12 @@ h4 span,
 .colored {
 	color: #DB0A61;
 }
-a {
+/* a {
 	color: #55acee;
 }
 a:hover {
 	color: #339BEB;
-}
+} */
 a:focus,
 a:active {
 	outline: none;

@@ -7,6 +7,9 @@
 	top: 40px;
 }
 
+/*EN IOS POR DEFECTO LOS NUMEROS APARECEN EN OTRO COLOR, PARA PONERLO NORMAL*/
+a[href^=tel] { color: inherit; text-decoration: none; }
+
 .redondo{
 	width: 200px;
 	height: 200px;
@@ -428,7 +431,8 @@ text-align:center;
 	background-color: #BB0A53;
 	border: 0;
 }
-a[href^=tel] { color: inherit; text-decoration: none; }
+
+
 
 /* Collapse
 ---------------------------------- */
